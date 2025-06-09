@@ -53,7 +53,7 @@ Donanım sıcaklıklarını okuyabilmek için aşağıdaki adımları izleyin:
 ### 4. Veritabanı Görüntüleme (Opsiyonel)
 Kayıt edilen sicakliklar.db dosyasını görüntülemek isterseniz:
 
-- SQLite yüklü değilse [SQLite.org] (https://sqlitebrowser.org/dl/) adresinden indirip kurabilirsiniz.
+- SQLite yüklü değilse [SQLite.org](https://sqlitebrowser.org/dl/) adresinden indirip kurabilirsiniz.
 - Veritabanını açarak geçmiş sıcaklık verilerini inceleyebilirsiniz
 
 
