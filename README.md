@@ -26,7 +26,7 @@ Ayrıca geçmiş veriler **SQLite veritabanına kaydedilir** ve tarih aralığı
 
 ---
 
-## 🖼️ Arayüz Görüntüleri
+##  Arayüz Görüntüleri
 
 Uygulamanın grafik arayüzü PyQt5 kullanılarak tasarlanmıştır. Gerçek zamanlı sıcaklık izleme, eşik kontrolü, alarm sistemi ve geçmiş verilerin grafiksel analizi gibi işlevler kullanıcı dostu bir arayüzle sunulmaktadır.
 
