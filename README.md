@@ -26,16 +26,16 @@ Ayrıca geçmiş veriler **SQLite veritabanına kaydedilir** ve tarih aralığı
 
 ---
 
-##  Arayüz Görüntüleri
+## 🖼️ Arayüz Görüntüleri
 
 ###  Gerçek Zamanlı Sıcaklık Takibi
-![Gerçek Zamanlı Ekran](resim/Genel Arayüz.png)
+![Gerçek Zamanlı Ekran](docs/genel_arayuz.png)
 
-## Uyarı Geldiğinde
-![Geçmiş Veriler Ekranı](resim/Uyarı çıktığında.png)
+###  Uyarı Geldiğinde
+![Uyarı Ekranı](docs/uyari_ciktiginda.png)
 
 ###  Geçmiş Verilerin Grafiği
-![Geçmiş Veriler Ekranı](resim/Geçmiş veriler.png)
+![Geçmiş Veriler Ekranı](docs/gecmis_veriler.png)
 
 ---
 
