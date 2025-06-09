@@ -28,13 +28,24 @@ Ayrıca geçmiş veriler **SQLite veritabanına kaydedilir** ve tarih aralığı
 
 ## 🖼️ Arayüz Görüntüleri
 
+Uygulamanın grafik arayüzü PyQt5 kullanılarak tasarlanmıştır. Gerçek zamanlı sıcaklık izleme, eşik kontrolü, alarm sistemi ve geçmiş verilerin grafiksel analizi gibi işlevler kullanıcı dostu bir arayüzle sunulmaktadır.
+
 ###  Gerçek Zamanlı Sıcaklık Takibi
+
+Bu ekranda kullanıcı, anlık olarak **CPU, GPU ve Disk sıcaklıklarını** görebilir. Her donanım bileşeni için eşik değeri ayarlanabilir. Sıcaklık değeri eşik değerini aşarsa uygulama otomatik olarak **uyarı verir ve sesli alarm** başlatır.
+
 ![Gerçek Zamanlı Ekran](docs/genel_arayuz.png)
 
 ###  Uyarı Geldiğinde
+
+Sıcaklık değerlerinden herhangi biri tanımlanan eşik değerin üzerine çıkarsa, uygulama kullanıcıyı hem **görsel mesaj kutusu** hem de **sistem sesi** ile uyarır. Bu, donanıma zarar gelmesini önlemek için kullanıcıya hızlı aksiyon alma imkânı tanır.
+
 ![Uyarı Ekranı](docs/uyari_ciktiginda.png)
 
 ###  Geçmiş Verilerin Grafiği
+
+Kullanıcılar tarih aralığı seçerek geçmişe dönük sıcaklık verilerini grafik olarak inceleyebilir. Bu sayede uzun vadede sistemin termal performansı takip edilebilir. Tüm veriler SQLite veritabanında saklanır.
+
 ![Geçmiş Veriler Ekranı](docs/gecmis_veriler.png)
 
 ---
