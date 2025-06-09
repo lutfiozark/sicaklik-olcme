@@ -32,11 +32,13 @@ Ayrıca geçmiş veriler **SQLite veritabanına kaydedilir** ve tarih aralığı
 Uygulama Python 3.8+ ile test edilmiştir.  
 Python yüklü değilse [python.org](https://www.python.org/downloads/) adresinden indirip kurabilirsiniz.
 
+
 ### 2. Gerekli Python Kütüphaneleri
 
 Terminal veya CMD üzerinden aşağıdaki komutu çalıştırarak gerekli kütüphaneleri yükleyin:
 
 pip install pyqt5 matplotlib wmi
+
 
 ### 3. OpenHardwareMonitor (v0.9.1) Kurulumu
 Donanım sıcaklıklarını okuyabilmek için aşağıdaki adımları izleyin:
@@ -47,6 +49,7 @@ Donanım sıcaklıklarını okuyabilmek için aşağıdaki adımları izleyin:
 - OpenHardwareMonitor.exe dosyasını çalıştırın.
 - Uygulama açık kaldığı sürece Python uygulaması sensörlere erişebilir.
 
+
 ### 4. Veritabanı Görüntüleme (Opsiyonel)
 Kayıt edilen sicakliklar.db dosyasını görüntülemek isterseniz:
 
@@ -54,10 +57,32 @@ Kayıt edilen sicakliklar.db dosyasını görüntülemek isterseniz:
 - “Standard installer for 64-bit Windows” sürümünü indirip kurabilirsiniz
 - Veritabanını açarak geçmiş sıcaklık verilerini inceleyebilirsiniz
 
+
 ### 5. Uygulamayı Başlatma
 
 - python sicaklik_uygulamasi.py 
 - python terminalinde çalıştırın
+
+
+### PyQt5 Arayüzü Hakkında
+
+Bu uygulama, kullanıcı arayüzü için PyQt5 kullanmaktadır.
+Arayüz, .ui formatında Qt Designer aracı ile hazırlanmıştır.
+
+İlgili dosyalar:
+- sicaklik_arayuzu.ui → Qt Designer ile tasarlanmış grafik arayüz
+- sicaklik_arayuzu.py → .ui dosyasından otomatik üretilmiş Python kodu
+
+Arayüzü düzenlemek isterseniz:
+sicaklik_arayuzu.ui dosyasını Qt Designer ile açabilirsiniz
+
+Düzenlemeyi tamamladıktan sonra aşağıdaki komut ile .py dosyasına dönüştürün:
+
+- pyuic5 -x sicaklik_arayuzu.ui -o sicaklik_arayuzu.py
+
+pyuic5 komutu çalışmıyorsa PyQt5’in yüklü olduğundan emin olun:
+
+- pip install pyqt5
 
 ---
 
