@@ -43,7 +43,7 @@ pip install pyqt5 matplotlib wmi
 ### 3. OpenHardwareMonitor (v0.9.1) Kurulumu
 Donanım sıcaklıklarını okuyabilmek için aşağıdaki adımları izleyin:
 
-- openhardwaremonitor indirme linki: https://openhardwaremonitor.org/downloads/
+- openhardwaremonitor yüklü değilse [openhardwaremonitor.org](https://openhardwaremonitor.org/downloads/) adresinden indirip kurabilirsiniz.
 - UYARI:  Bu uygulama yalnızca v0.9.1 sürümü ile doğru çalışmaktadır. Diğer sürümlerde WMI sensörleri Python tarafından algılanamayabilir.
 - ZIP dosyasını çıkarın.
 - OpenHardwareMonitor.exe dosyasını çalıştırın.
@@ -53,15 +53,15 @@ Donanım sıcaklıklarını okuyabilmek için aşağıdaki adımları izleyin:
 ### 4. Veritabanı Görüntüleme (Opsiyonel)
 Kayıt edilen sicakliklar.db dosyasını görüntülemek isterseniz:
 
-- SQLite indirme linki: https://sqlitebrowser.org/dl/
-- “Standard installer for 64-bit Windows” sürümünü indirip kurabilirsiniz
+- SQLite yüklü değilse [SQLite.org] (https://sqlitebrowser.org/dl/) adresinden indirip kurabilirsiniz.
 - Veritabanını açarak geçmiş sıcaklık verilerini inceleyebilirsiniz
 
 
 ### 5. Uygulamayı Başlatma
 
 - python sicaklik_uygulamasi.py 
-- python terminalinde çalıştırın
+
+python terminalinde çalıştırın
 
 
 ### PyQt5 Arayüzü Hakkında
