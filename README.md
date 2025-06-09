@@ -26,6 +26,19 @@ Ayrıca geçmiş veriler **SQLite veritabanına kaydedilir** ve tarih aralığı
 
 ---
 
+##  Arayüz Görüntüleri
+
+###  Gerçek Zamanlı Sıcaklık Takibi
+![Gerçek Zamanlı Ekran](resim/Genel Arayüz.png)
+
+## Uyarı Geldiğinde
+![Geçmiş Veriler Ekranı](resim/Uyarı çıktığında.png)
+
+###  Geçmiş Verilerin Grafiği
+![Geçmiş Veriler Ekranı](resim/Geçmiş veriler.png)
+
+---
+
 ##  Kurulum ve Gereksinimler
 
 ### 1. Python Gereksinimi
