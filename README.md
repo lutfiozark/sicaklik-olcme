@@ -10,9 +10,9 @@
 
 ##  Proje Hakkında
 
-Bu Python tabanlı masaüstü uygulama, CPU, GPU ve disk sıcaklıklarını gerçek zamanlı olarak izler.  
-Kullanıcının belirlediği eşik sıcaklıklar aşıldığında alarm sesi çalar ve uyarı mesajı gösterilir.  
-Ayrıca geçmiş veriler veritabanına kaydedilir ve tarih aralığına göre grafiksel olarak görüntülenebilir.
+Bu Python tabanlı masaüstü uygulama, **CPU, GPU ve disk sıcaklıklarını gerçek zamanlı olarak izler.**  
+Kullanıcının belirlediği eşik sıcaklıklar aşıldığında **alarm sesi çalar ve uyarı mesajı gösterilir.**  
+Ayrıca geçmiş veriler **SQLite veritabanına kaydedilir** ve tarih aralığına göre grafiksel olarak görüntülenebilir.
 
 ---
 
@@ -38,17 +38,25 @@ Terminal veya CMD üzerinden aşağıdaki komutu çalıştırarak gerekli kütü
 
 pip install pyqt5 matplotlib wmi
 
-### 3. OpenHardwareMonitor Kurulumu (Windows için)
+### 3. OpenHardwareMonitor (v0.9.1) Kurulumu
 Donanım sıcaklıklarını okuyabilmek için aşağıdaki adımları izleyin:
 
-- https://openhardwaremonitor.org/downloads/
-- ZIP dosyasını çıkarın
-- OpenHardwareMonitor.exe dosyasını çalıştırın
-- Uygulama açık kaldığı sürece Python uygulaması sensörlere erişebilir
+- openhardwaremonitor indirme linki: https://openhardwaremonitor.org/downloads/
+- UYARI:  Bu uygulama yalnızca v0.9.1 sürümü ile doğru çalışmaktadır. Diğer sürümlerde WMI sensörleri Python tarafından algılanamayabilir.
+- ZIP dosyasını çıkarın.
+- OpenHardwareMonitor.exe dosyasını çalıştırın.
+- Uygulama açık kaldığı sürece Python uygulaması sensörlere erişebilir.
 
-### 4. Uygulamayı Başlatma
-python sicaklik_uygulamasi.py 
+### 4. Veritabanı Görüntüleme (Opsiyonel)
+Kayıt edilen sicakliklar.db dosyasını görüntülemek isterseniz:
 
+- SQLite indirme linki: https://sqlitebrowser.org/dl/
+- “Standard installer for 64-bit Windows” sürümünü indirip kurabilirsiniz
+- Veritabanını açarak geçmiş sıcaklık verilerini inceleyebilirsiniz
+
+### 5. Uygulamayı Başlatma
+
+- python sicaklik_uygulamasi.py 
 - python terminalinde çalıştırın
 
 ---
@@ -67,3 +75,9 @@ python sicaklik_uygulamasi.py
 ### Platform Uyarısı
 - Bu uygulama sadece Windows işletim sistemi üzerinde çalışmaktadır.
 - Linux/macOS desteği yoktur.
+
+---
+
+##  Katkı ve Geri Bildirim
+- Bu projeyi geliştirip katkı sağlamak isterseniz pull request açabilir veya önerilerinizi issue olarak bildirebilirsiniz.
+- Yıldız vererek destek olabilirsiniz! ⭐
